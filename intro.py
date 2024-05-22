@@ -31,11 +31,21 @@ found = True
 def say_hello():
     print("hello there!")
 
-def say_goodybye(name):
+def say_goodbye(name):
     print("goodbye" + name)
 
+def test(name,age,county):
+    print("hello my name is" + name + "I am" + str(age) + "years old" + "and I am from" + country)
 
-    
+
 # call the function
 say_hello()
+# name = "amber"
+#it will always go with whatever the last function is called
+say_goodbye(name)
+test(name,age,"UnitedStates")
+# let name = "amber"
+# let name = "francine"
+
+
 
